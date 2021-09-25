@@ -1,0 +1,33 @@
+{
+  "name": "pfin-api",
+  "version": "1.0.0",
+  "description": "personal finance backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon  src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fred-h-nguyen/pfin-api.git"
+  },
+  "keywords": [
+    "personal-finance"
+  ],
+  "author": "fred.h.nguyen@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fred-h-nguyen/pfin-api/issues"
+  },
+  "homepage": "https://github.com/fred-h-nguyen/pfin-api#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "eslint": "^7.32.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "mongoose": "^6.0.7",
+    "nodemon": "^2.0.13",
+    "passport": "^0.5.0",
+    "ramda": "^0.27.1"
+  }
+}
